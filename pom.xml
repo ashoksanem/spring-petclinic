@@ -267,4 +267,16 @@
       </plugin>
     </plugins>
   </reporting>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-artifactory-releases</name>
+        <url>http://35.232.89.42:8081/artifactory/maven-release</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-artifactory-snapshots</name>
+        <url>http://35.232.89.42:8081/artifactory/maven-snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
